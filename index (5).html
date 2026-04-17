@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Thames Side Car Doctor | 24/7 Tyre &amp; Auto Repair, Barking London</title>
+<meta name="description" content="Thames Side Car Doctor — 24/7 tyre fitting, mechanical repair, PCO services and diagnostics in Barking, East London. Call +44 7349 820036."/>
+<meta property="og:title" content="Thames Side Car Doctor | 24/7 Auto Specialists, Barking"/>
+<meta property="og:description" content="Tyre fitting, mechanical repairs, body work and PCO services. Honest pricing, fast turnaround. Open 24/7."/>
+<meta property="og:url" content="https://tscardoctor.uk"/>
+<meta property="og:type" content="website"/>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%23C8000F'/><text y='.85em' font-size='68' x='14'>🔧</text></svg>"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --r:#C8000F;--rh:#E50012;--rd:rgba(200,0,15,.10);--rb:rgba(200,0,15,.22);
+  --k:#06060A;--k2:#0C0C10;--k3:#111116;--k4:#18181E;
+  --rl:rgba(255,255,255,.055);--mu:rgba(255,255,255,.48);--mu2:rgba(255,255,255,.70);
+  --w:#FFF;--ff:"Syne",sans-serif;--fb:"Inter",sans-serif;--ra:4px;
+  --glow:0 12px 48px rgba(200,0,15,.22);
+  --btn-h:50px;
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+html{scroll-behavior:smooth;}
+body{background:var(--k);color:var(--w);font-family:var(--fb);font-weight:300;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
+html,body{width:100%;max-width:100vw;}
+img{max-width:100%;height:auto;display:block;}
+
+/* ── SKIP LINK ── */
+.skip-link{position:absolute;top:-50px;left:0;background:var(--r);color:#fff;padding:10px 18px;z-index:99999;font-size:.8rem;font-weight:600;letter-spacing:1px;text-decoration:none;transition:top .2s;}
+.skip-link:focus{top:0;}
+
+/* ── CURSOR desktop ── */
+#cur,#rng{pointer-events:none;position:fixed;border-radius:50%;z-index:9999;transform:translate(-50%,-50%);}
+#cur{width:6px;height:6px;background:var(--rh);}
+#rng{width:28px;height:28px;border:1.5px solid rgba(200,0,15,.55);z-index:9998;transition:width .18s,height .18s,opacity .18s;opacity:.65;}
+
+/* ── FOCUS ── */
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--rh);outline-offset:3px;}
+
+/* ══ NAV ══ */
+#nav{position:fixed;top:0;left:0;right:0;z-index:900;height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;border-bottom:1px solid transparent;transition:height .35s,background .35s,border-color .35s;}
+#nav.up{height:62px;background:rgba(6,6,10,.97);backdrop-filter:blur(28px);-webkit-backdrop-filter:blur(28px);border-bottom:1px solid rgba(200,0,15,.2);box-shadow:0 1px 0 rgba(200,0,15,.06),0 4px 32px rgba(0,0,0,.4);}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;}
+.lm{width:42px;height:42px;background:var(--r);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .2s,transform .2s;box-shadow:0 0 0 1px rgba(200,0,15,.5),inset 0 1px 0 rgba(255,255,255,.15);}
+.lm:hover{background:var(--rh);transform:scale(1.06);}
+.lm svg{width:26px;height:26px;fill:#fff;}
+.lw1{font-family:var(--ff);font-size:.9rem;font-weight:800;color:var(--w);display:block;line-height:1.2;letter-spacing:-.1px;}
+.lw2{font-size:.58rem;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:var(--rh);display:block;margin-top:2px;}
+.nl{display:flex;gap:28px;list-style:none;}
+.nl a{font-size:.68rem;font-weight:500;letter-spacing:1.8px;text-transform:uppercase;color:rgba(255,255,255,.48);text-decoration:none;transition:color .2s;position:relative;padding:4px 0;}
+.nl a::after{content:'';position:absolute;left:0;bottom:-2px;height:1px;width:0;background:var(--rh);transition:width .22s;}
+.nl a:hover,.nl a.on{color:var(--w);}
+.nl a:hover::after,.nl a.on::after{width:100%;}
+.nb{height:var(--btn-h);padding:0 24px;background:var(--r);color:var(--w);font-family:var(--fb);font-size:.68rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;text-decoration:none;border-radius:var(--ra);display:inline-flex;align-items:center;gap:7px;transition:background .2s,transform .18s,box-shadow .2s;border:none;cursor:pointer;white-space:nowrap;}
+.nb:hover{background:var(--rh);transform:translateY(-1px);box-shadow:var(--glow);}
+.bg{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:6px;background:none;border:none;}
+.bg span{width:22px;height:2px;background:var(--w);display:block;transition:all .25s;border-radius:1px;}
+.bg.x span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.bg.x span:nth-child(2){opacity:0;transform:scaleX(0);}
+.bg.x span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+
+/* ── MOBILE MENU ── */
+#mob-menu{position:fixed;top:0;right:0;bottom:0;width:min(320px,88vw);background:#0a0a0f;z-index:8999;display:flex;flex-direction:column;padding:80px 0 32px;overflow-y:auto;border-left:1px solid rgba(200,0,15,.18);transform:translateX(100%);transition:transform .36s cubic-bezier(.22,1,.36,1);box-shadow:-8px 0 40px rgba(0,0,0,.6);}
+#mob-menu.open{transform:translateX(0);}
+#mob-menu a{display:flex;align-items:center;padding:16px 28px;color:rgba(255,255,255,.7);font-size:1.05rem;font-weight:600;font-family:var(--ff);border-bottom:1px solid rgba(255,255,255,.04);text-decoration:none;transition:color .2s,background .2s,padding .2s;}
+#mob-menu a:hover{color:#fff;background:rgba(200,0,15,.08);padding-left:34px;}
+#mob-menu .mob-cta{margin:20px 24px 0;background:var(--r);color:#fff!important;padding:0 20px;height:50px;border-radius:var(--ra);justify-content:center;font-weight:700;font-size:.88rem;letter-spacing:1.5px;text-transform:uppercase;border:none;border-bottom:none!important;}
+#mob-menu .mob-cta:hover{background:var(--rh);padding-left:20px!important;}
+#mob-menu .mob-wa{margin:10px 24px 0;background:#25D366;color:#fff!important;padding:0 20px;height:50px;border-radius:var(--ra);justify-content:center;font-weight:700;font-size:.88rem;letter-spacing:1.5px;text-transform:uppercase;gap:10px;border:none;border-bottom:none!important;}
+#mob-menu .mob-wa:hover{background:#1fbe5a;padding-left:20px!important;}
+#mob-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:8998;backdrop-filter:blur(3px);}
+#mob-overlay.open{display:block;}
+
+/* ── PAGES ── */
+.pg{display:none;}.pg.on{display:block;}
+
+/* ══ HERO ══ */
+.hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:center;overflow:hidden;}
+#hero-canvas{position:absolute;inset:0;z-index:0;width:100%;height:100%;}
+.h-bg{position:absolute;inset:0;background-size:cover;background-position:center 35%;z-index:0;}
+.h-ov{position:absolute;inset:0;background:linear-gradient(115deg,rgba(6,6,10,.97) 0%,rgba(6,6,10,.82) 50%,rgba(6,6,10,.25) 100%);z-index:1;}
+.h-glow{position:absolute;bottom:-200px;left:-120px;width:800px;height:800px;border-radius:50%;background:radial-gradient(circle,rgba(200,0,15,.13) 0%,transparent 65%);pointer-events:none;z-index:1;}
+.h-ct{position:relative;z-index:2;padding:90px 5vw 0;max-width:860px;}
+@media(prefers-reduced-motion:no-preference){.h-ct{animation:fu 1s cubic-bezier(.22,1,.36,1) .1s both;}}
+@keyframes fu{from{opacity:0;transform:translateY(32px)}to{opacity:1;transform:none}}
+.h-badge{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--rb);background:var(--rd);padding:7px 16px;border-radius:40px;margin-bottom:28px;}
+.bdot{width:7px;height:7px;background:var(--rh);border-radius:50%;animation:bk 2s infinite;flex-shrink:0;}
+@keyframes bk{0%,100%{opacity:1}50%{opacity:.15}}
+.h-badge span{font-size:.64rem;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,.82);}
+.h-h1{font-family:var(--ff);font-weight:800;line-height:.90;letter-spacing:-2px;color:var(--w);margin-bottom:24px;}
+.h-h1 .line1,.h-h1 .line2{display:block;font-size:clamp(3rem,8.5vw,7.5rem);}
+.h-h1 .acc{color:var(--rh);}
+.h-h1 .gh{-webkit-text-stroke:1.5px rgba(255,255,255,.2);color:transparent;}
+.h-sub{font-size:1.08rem;font-weight:300;color:rgba(255,255,255,.66);line-height:1.82;max-width:460px;margin-bottom:36px;}
+
+/* ── BUTTONS — unified system ── */
+.btn-r,.btn-g,.btn-wa,.btn-ln{
+  height:var(--btn-h);
+  display:inline-flex;align-items:center;justify-content:center;
+  gap:8px;border-radius:var(--ra);text-decoration:none;
+  font-family:var(--fb);font-size:.7rem;font-weight:600;
+  letter-spacing:1.8px;text-transform:uppercase;
+  white-space:nowrap;cursor:pointer;border:none;
+  transition:background .2s,transform .18s,box-shadow .2s,color .2s;
+}
+.btn-r{background:var(--r);color:#fff;padding:0 28px;}
+.btn-r:hover{background:var(--rh);transform:translateY(-2px);box-shadow:var(--glow);}
+.btn-g{background:rgba(255,255,255,.06);color:rgba(255,255,255,.75);padding:0 24px;border:1px solid rgba(255,255,255,.12);}
+.btn-g:hover{background:rgba(255,255,255,.12);color:#fff;transform:translateY(-1px);}
+.btn-wa{background:#25D366;color:#fff;padding:0 24px;}
+.btn-wa:hover{background:#1fbe5a;transform:translateY(-2px);box-shadow:0 8px 28px rgba(37,211,102,.3);}
+.btn-ln{background:transparent;color:rgba(255,255,255,.55);padding:0 8px;letter-spacing:1.5px;}
+.btn-ln:hover{color:#fff;}
+.h-acts{display:flex;gap:12px;align-items:center;flex-wrap:wrap;}
+
+/* ── KPI ── */
+.h-kpi{position:absolute;bottom:96px;right:5vw;z-index:2;display:flex;gap:44px;}
+@media(prefers-reduced-motion:no-preference){.h-kpi{animation:fu 1s .45s both;}}
+.kn{font-family:var(--ff);font-size:2.6rem;font-weight:800;color:var(--w);line-height:1;}
+.kn sub{font-size:1.2rem;color:var(--rh);font-style:normal;}
+.kl{font-size:.56rem;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:5px;}
+.h-scroll{position:absolute;bottom:52px;right:5vw;z-index:2;display:flex;align-items:center;gap:9px;}
+@media(prefers-reduced-motion:no-preference){.h-scroll{animation:fu 1s .62s both;}}
+.h-scroll-bar{width:1px;height:30px;background:linear-gradient(var(--r),transparent);}
+.h-scroll span{font-size:.58rem;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.36);}
+
+/* ── TICKER ── */
+.tkr{background:var(--r);overflow:hidden;padding:11px 0;}
+.tkr-t{display:flex;width:max-content;}
+@media(prefers-reduced-motion:no-preference){.tkr-t{animation:tk 34s linear infinite;}}
+.tkr:hover .tkr-t{animation-play-state:paused;}
+@keyframes tk{to{transform:translateX(-50%)}}
+.ti{font-size:.65rem;font-weight:600;letter-spacing:3px;text-transform:uppercase;white-space:nowrap;padding:0 22px;display:inline-flex;align-items:center;gap:22px;}
+.ti::after{content:'◆';font-size:.28rem;opacity:.7;}
+
+/* ── LAYOUT ── */
+.s{padding:96px 5vw;}
+.s-sm{padding:64px 5vw;}
+.bg2{background:var(--k2);}
+.lbl{font-size:.6rem;font-weight:600;letter-spacing:3.5px;text-transform:uppercase;color:var(--rh);margin-bottom:12px;display:flex;align-items:center;gap:10px;}
+.lbl::before{content:'';width:14px;height:1px;background:var(--rh);}
+.h2{font-family:var(--ff);font-size:clamp(2rem,4vw,3.4rem);font-weight:800;line-height:.93;letter-spacing:-.8px;color:var(--w);}
+.h2 .d{color:rgba(255,255,255,.22);}
+.bt{font-size:.97rem;color:rgba(255,255,255,.54);line-height:1.84;margin-top:14px;}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;}
+.two.fl{direction:rtl;}.two.fl>*{direction:ltr;}
+
+/* ── REVEAL ── */
+.rv{opacity:0;transform:translateY(22px) scale(.985);}
+@media(prefers-reduced-motion:no-preference){.rv{transition:opacity .7s ease,transform .7s cubic-bezier(.22,1,.36,1);}}
+.rv.vs{opacity:1;transform:none;}
+.d1{transition-delay:.07s}.d2{transition-delay:.14s}.d3{transition-delay:.21s}.d4{transition-delay:.28s}
+
+/* ── PHOTO BLOCK ── */
+.pb{position:relative;overflow:hidden;border-radius:6px;}
+.pb img{width:100%;height:100%;object-fit:cover;filter:brightness(.72);transition:transform .8s ease;}
+.pb:hover img{transform:scale(1.04);}
+.pb-cap{position:absolute;bottom:0;left:0;right:0;padding:24px 20px 16px;background:linear-gradient(transparent,rgba(6,6,10,.92));display:flex;align-items:center;gap:9px;}
+.pb-dot{width:6px;height:6px;background:var(--rh);border-radius:50%;animation:bk 2s infinite;flex-shrink:0;}
+.pb-txt{font-size:.62rem;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.62);}
+
+/* ── CHECKLIST ── */
+.cks{margin-top:26px;display:flex;flex-direction:column;gap:13px;}
+.ck{display:flex;align-items:center;gap:13px;}
+.ck-dot{width:20px;height:20px;flex-shrink:0;background:var(--rd);border:1px solid var(--rb);border-radius:50%;display:flex;align-items:center;justify-content:center;}
+.ck-dot::after{content:'';width:6px;height:6px;background:var(--rh);border-radius:50%;}
+.ck span{font-size:.9rem;color:rgba(255,255,255,.78);}
+
+/* ── STATS ── */
+.stats{background:var(--k2);border-top:1px solid var(--rl);border-bottom:1px solid var(--rl);display:grid;grid-template-columns:repeat(4,1fr);}
+.st{padding:40px 24px;border-right:1px solid var(--rl);text-align:center;transition:background .2s;cursor:default;}
+.st:last-child{border-right:none;}
+.st:hover{background:var(--k3);}
+.sn{font-family:var(--ff);font-size:2.8rem;font-weight:800;color:var(--w);line-height:1;}
+.sn em{color:var(--rh);font-style:normal;}
+.sl{font-size:.56rem;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-top:7px;}
+
+/* ── SERVICE CARDS ── */
+.svc-g{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rl);margin-top:44px;}
+.svc{background:var(--k2);padding:32px 28px 36px;position:relative;overflow:hidden;transition:background .25s,transform .3s cubic-bezier(.22,1,.36,1),box-shadow .3s;}
+.svc::after{content:'';position:absolute;bottom:0;left:0;width:0;height:2px;background:var(--r);transition:width .32s;}
+.svc:hover{background:var(--k3);transform:perspective(900px) rotateY(3deg) rotateX(-1.5deg) translateY(-5px);box-shadow:var(--glow);z-index:2;}
+.svc:hover::after{width:100%;}
+.svc-bg{font-family:var(--ff);font-size:4.5rem;font-weight:800;color:rgba(255,255,255,.022);line-height:1;position:absolute;top:12px;right:16px;transition:color .25s;user-select:none;}
+.svc:hover .svc-bg{color:rgba(200,0,15,.055);}
+.svc-ic{width:46px;height:46px;background:var(--rd);border:1px solid var(--rb);border-radius:var(--ra);display:flex;align-items:center;justify-content:center;margin-bottom:16px;transition:background .25s,border-color .25s;}
+.svc:hover .svc-ic{background:rgba(200,0,15,.2);border-color:rgba(200,0,15,.4);}
+.svc-ic svg{color:var(--rh);}
+.svc-nm{font-family:var(--ff);font-size:1rem;font-weight:700;color:var(--w);margin-bottom:9px;}
+.svc-d{font-size:.84rem;color:rgba(255,255,255,.5);line-height:1.78;}
+
+/* ── PAGE HERO ── */
+.ph{position:relative;height:48vh;min-height:300px;display:flex;align-items:flex-end;overflow:hidden;}
+.ph-bg{position:absolute;inset:0;background-size:cover;background-position:center;filter:brightness(.22) saturate(.4);}
+.ph-gr{position:absolute;inset:0;background:linear-gradient(to top,rgba(6,6,10,1) 0%,transparent 55%);}
+.ph-in{position:relative;z-index:2;padding:0 5vw 52px;}
+.ph-h{font-family:var(--ff);font-size:clamp(2.4rem,5.5vw,4.8rem);font-weight:800;line-height:.93;letter-spacing:-.8px;color:var(--w);}
+
+/* ══ 3D SECTION ══ */
+.model-section{background:var(--k2);padding:0;}
+.model-header{padding:72px 5vw 0;}
+#car3d{width:100%;display:block;background:#050508;}
+.model-footer{padding:18px 5vw 24px;background:var(--k2);display:flex;align-items:center;gap:12px;border-top:1px solid var(--rl);}
+
+/* ══ TYRE CARDS ══ */
+.tg{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rl);margin-top:44px;border-radius:6px;overflow:hidden;}
+.tc{background:var(--k2);overflow:hidden;transition:background .25s,transform .3s cubic-bezier(.22,1,.36,1),box-shadow .3s;display:flex;flex-direction:column;}
+.tc:hover{background:var(--k3);transform:perspective(900px) rotateY(2deg) rotateX(-1deg) translateY(-4px);box-shadow:var(--glow);z-index:2;}
+.tc-img{height:240px;overflow:hidden;position:relative;flex-shrink:0;}
+.tc-img img{width:100%;height:100%;object-fit:cover;object-position:center;filter:brightness(.82) saturate(1.05) contrast(1.05);transition:transform .7s ease,filter .4s;}
+.tc:hover .tc-img img{transform:scale(1.06);filter:brightness(.92) saturate(1.1) contrast(1.08);}
+.tc-badge{position:absolute;top:14px;left:14px;background:var(--r);padding:5px 12px;font-size:.6rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--w);border-radius:var(--ra);box-shadow:0 4px 16px rgba(200,0,15,.4);}
+.tc-b{padding:24px 26px 30px;display:flex;flex-direction:column;flex:1;}
+.tc-tag{display:inline-flex;align-items:center;gap:5px;font-size:.6rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:4px 10px;border-radius:var(--ra);margin-bottom:10px;width:fit-content;}
+.tag-u{background:rgba(255,165,0,.12);color:#FFA500;border:1px solid rgba(255,165,0,.28);}
+.tag-n{background:rgba(0,190,90,.09);color:#3ecf6c;border:1px solid rgba(0,190,90,.22);}
+.tc-nm{font-family:var(--ff);font-size:1.1rem;font-weight:700;color:var(--w);margin-bottom:10px;}
+.tc-d{font-size:.85rem;color:rgba(255,255,255,.52);line-height:1.76;margin-bottom:16px;flex:1;}
+.tc-pr{font-family:var(--ff);font-size:1.5rem;font-weight:800;color:var(--rh);margin-bottom:14px;}
+.tc-pr small{font-family:var(--fb);font-size:.72rem;color:rgba(255,255,255,.36);font-weight:300;}
+.tc-cta{display:inline-flex;align-items:center;gap:6px;font-size:.65rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--rh);text-decoration:none;cursor:pointer;background:none;border:none;padding:0;transition:color .2s,gap .2s;}
+.tc-cta:hover{color:var(--w);gap:10px;}
+
+/* ── BRAND GRID ── */
+.br-wrap{margin-top:40px;}
+.br-title{font-size:.6rem;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.28);margin-bottom:18px;text-align:center;}
+.br-g{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--rl);border-radius:4px;overflow:hidden;}
+.br-c{background:var(--k2);padding:18px 10px;display:flex;flex-direction:column;align-items:center;gap:7px;transition:background .22s;cursor:default;}
+.br-c:hover{background:var(--k3);}
+.br-ic{width:40px;height:40px;border-radius:50%;background:var(--rd);border:1px solid var(--rb);display:flex;align-items:center;justify-content:center;font-family:var(--ff);font-size:.56rem;font-weight:800;color:var(--rh);transition:background .22s;}
+.br-c:hover .br-ic{background:rgba(200,0,15,.2);}
+.br-nm{font-size:.7rem;font-weight:500;text-transform:uppercase;color:rgba(255,255,255,.4);}
+.br-c:hover .br-nm{color:var(--w);}
+
+/* ── PROCESS ── */
+.pg-s{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rl);margin-top:44px;border-radius:6px;overflow:hidden;}
+.step{background:var(--k2);padding:30px 24px;transition:background .25s;}.step:hover{background:var(--k3);}
+.step-n{font-family:var(--ff);font-size:3.4rem;font-weight:800;color:rgba(200,0,15,.07);line-height:1;margin-bottom:14px;transition:color .25s;}
+.step:hover .step-n{color:rgba(200,0,15,.16);}
+.step-ic{margin-bottom:12px;}.step-ic svg{color:var(--r);}
+.step-t{font-family:var(--ff);font-size:.9rem;font-weight:700;color:var(--w);margin-bottom:7px;}
+.step-d{font-size:.82rem;color:rgba(255,255,255,.48);line-height:1.76;}
+
+/* ── TESTIMONIALS ── */
+.tst-g{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px;}
+.tt{background:rgba(255,255,255,.03);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.06);padding:28px 26px;border-radius:8px;transition:background .25s,border-color .25s,transform .3s;}
+.tt:hover{background:rgba(255,255,255,.05);border-color:rgba(200,0,15,.22);transform:translateY(-4px);}
+.stars{display:flex;gap:3px;margin-bottom:14px;}
+.tt-q{font-size:.88rem;color:rgba(255,255,255,.65);line-height:1.84;font-style:italic;margin-bottom:18px;}
+.tt-au{display:flex;align-items:center;gap:12px;}
+.tt-av{width:38px;height:38px;border-radius:50%;background:var(--rd);border:1.5px solid var(--rb);display:flex;align-items:center;justify-content:center;font-family:var(--ff);font-size:.72rem;font-weight:800;color:var(--rh);flex-shrink:0;}
+.tt-nm{font-size:.85rem;font-weight:600;color:var(--w);}
+.tt-ro{font-size:.72rem;color:rgba(255,255,255,.38);}
+.reviews-bar{display:flex;align-items:center;gap:14px;margin-bottom:36px;flex-wrap:wrap;}
+.rb-stars{display:flex;gap:2px;}
+.rb-text{font-size:.9rem;font-weight:500;color:rgba(255,255,255,.75);}
+.rb-link{font-size:.68rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--rh);text-decoration:none;padding:6px 14px;border:1px solid var(--rb);border-radius:var(--ra);transition:all .2s;}
+.rb-link:hover{background:var(--rd);color:var(--w);}
+
+/* ── VALUES ── */
+.val-g{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rl);margin-top:40px;border-radius:6px;overflow:hidden;}
+.val{background:var(--k2);padding:32px 24px;text-align:center;transition:background .25s,transform .3s;}
+.val:hover{background:var(--k3);transform:translateY(-3px);}
+.val-ic{width:52px;height:52px;margin:0 auto 14px;background:var(--rd);border:1px solid var(--rb);border-radius:50%;display:flex;align-items:center;justify-content:center;transition:all .25s;}
+.val:hover .val-ic{background:rgba(200,0,15,.2);border-color:rgba(200,0,15,.4);}
+.val-ic svg{color:var(--rh);}
+.val-t{font-family:var(--ff);font-size:.92rem;font-weight:700;color:var(--w);margin-bottom:8px;}
+.val-d{font-size:.82rem;color:rgba(255,255,255,.48);line-height:1.72;}
+
+/* ── CTA BAND ── */
+.cta-s{position:relative;overflow:hidden;min-height:440px;display:flex;align-items:center;}
+.cta-bg{position:absolute;inset:0;background-size:cover;background-position:center;filter:brightness(.16) saturate(.4);}
+.cta-ov{position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,6,10,.99) 0%,rgba(6,6,10,.6) 100%);}
+.cta-in{position:relative;z-index:2;padding:80px 5vw;max-width:640px;}
+.cta-lbl{font-size:.6rem;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--rh);margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+.cta-lbl::before{content:'';width:12px;height:1px;background:var(--rh);}
+.cta-h{font-family:var(--ff);font-size:clamp(2rem,3.8vw,3.2rem);font-weight:800;line-height:.94;letter-spacing:-.6px;color:var(--w);margin-bottom:14px;}
+.cta-h span{color:var(--rh);}
+.cta-p{font-size:.92rem;color:rgba(255,255,255,.48);line-height:1.78;margin-bottom:32px;max-width:420px;}
+.cta-bts{display:flex;gap:12px;flex-wrap:wrap;align-items:center;}
+
+/* ── CONTACT ── */
+.ct-g{display:grid;grid-template-columns:1fr 1.5fr;gap:64px;margin-top:52px;}
+.ci{display:flex;gap:14px;align-items:flex-start;margin-bottom:20px;}
+.ci-ic{width:40px;height:40px;flex-shrink:0;background:var(--rd);border:1px solid var(--rb);border-radius:var(--ra);display:flex;align-items:center;justify-content:center;}
+.ci-ic svg{color:var(--rh);}
+.ci-lb{font-size:.58rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.38);margin-bottom:4px;}
+.ci-v{font-size:.9rem;color:var(--w);line-height:1.55;}
+.av-box{display:flex;align-items:center;gap:10px;background:var(--rd);border:1px solid var(--rb);padding:12px 16px;border-radius:var(--ra);margin-bottom:20px;}
+.av-box span{font-size:.65rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--rh);}
+.wa-contact-btn{display:flex;align-items:center;gap:10px;background:#25D366;color:#fff;height:52px;padding:0 22px;border-radius:var(--ra);text-decoration:none;font-size:.78rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;transition:background .2s,transform .18s;margin-bottom:18px;}
+.wa-contact-btn:hover{background:#1fbe5a;transform:translateY(-1px);}
+.map-b{margin-top:18px;height:185px;overflow:hidden;border-radius:var(--ra);position:relative;}
+.map-b iframe{width:100%;height:100%;border:none;filter:grayscale(1) invert(.82) contrast(.72);opacity:.6;}
+.map-ov{position:absolute;inset:0;border:1px solid var(--rl);border-radius:var(--ra);pointer-events:none;}
+
+/* ── FORM ── */
+.step-ind{display:flex;align-items:center;gap:8px;margin-bottom:28px;}
+.si{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:700;font-family:var(--ff);transition:all .3s;flex-shrink:0;}
+.si.done{background:var(--r);color:#fff;}
+.si.active{background:var(--r);color:#fff;box-shadow:0 0 0 4px rgba(200,0,15,.2);}
+.si.pending{background:var(--k3);border:1px solid var(--rl);color:rgba(255,255,255,.28);}
+.si-line{flex:1;height:1px;background:var(--rl);transition:background .3s;}
+.si-line.done{background:var(--r);}
+.step-label{font-size:.6rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.32);margin-bottom:22px;}
+.form-step{display:none;}.form-step.active{display:block;}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.fg{display:flex;flex-direction:column;gap:6px;margin-bottom:14px;}
+.fg label{font-size:.6rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.42);}
+.fg input,.fg select,.fg textarea{background:var(--k3);border:1px solid rgba(255,255,255,.07);color:var(--w);padding:0 14px;height:48px;font-family:var(--fb);font-size:.9rem;font-weight:300;outline:none;border-radius:var(--ra);transition:border-color .2s,background .2s;-webkit-appearance:none;width:100%;}
+.fg textarea{resize:vertical;min-height:96px;height:auto;padding:13px 14px;}
+.fg input::placeholder,.fg textarea::placeholder{color:rgba(255,255,255,.22);}
+.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--r);background:rgba(200,0,15,.04);}
+.fg select option{background:var(--k3);}
+.f-ft{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:6px;}
+.f-ft .btn-g{min-width:100px;}
+.f-ft .btn-r{flex:1;}
+#f-status{margin-top:10px;font-size:.78rem;color:rgba(255,255,255,.38);}
+#fsuc{display:none;margin-top:14px;background:rgba(0,180,0,.07);border:1px solid rgba(0,200,0,.16);padding:20px 22px;border-radius:6px;}
+#fsuc p{font-size:.9rem;color:rgba(80,220,80,.88);line-height:1.68;}
+
+/* ── FLOATING WHATSAPP ── */
+#wa-float{position:fixed;bottom:88px;right:22px;z-index:8000;width:58px;height:58px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 24px rgba(37,211,102,.45);text-decoration:none;transition:transform .2s,box-shadow .2s;}
+#wa-float:hover{transform:scale(1.1);box-shadow:0 6px 32px rgba(37,211,102,.6);}
+#wa-float svg{width:30px;height:30px;fill:#fff;}
+.wa-pulse{position:absolute;width:100%;height:100%;border-radius:50%;border:2px solid #25D366;animation:wap 2.2s ease-out infinite;}
+@keyframes wap{0%{transform:scale(1);opacity:.8}100%{transform:scale(1.8);opacity:0}}
+
+/* ── MOBILE STICKY BAR ── */
+#mob-cta{display:none;position:fixed;bottom:0;left:0;right:0;z-index:8500;background:rgba(6,6,10,.97);border-top:1px solid rgba(200,0,15,.22);padding:10px 16px;gap:10px;backdrop-filter:blur(12px);}
+#mob-cta a{flex:1;display:flex;align-items:center;justify-content:center;gap:7px;height:46px;border-radius:var(--ra);font-size:.75rem;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;text-decoration:none;transition:opacity .2s;}
+#mob-cta a:active{opacity:.75;}
+.mca-call{background:var(--r);color:#fff;}
+.mca-wa{background:#25D366;color:#fff;}
+
+/* ── FOOTER ── */
+footer{background:var(--k2);border-top:1px solid var(--rl);padding:60px 5vw 96px;}
+.ft-g{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:44px;margin-bottom:48px;}
+.ft-desc{margin-top:12px;font-size:.82rem;color:rgba(255,255,255,.36);line-height:1.78;max-width:260px;}
+.ft-soc{display:flex;gap:8px;margin-top:18px;}
+.ft-si{width:34px;height:34px;border:1px solid var(--rl);border-radius:var(--ra);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.38);text-decoration:none;transition:all .2s;}
+.ft-si svg{width:14px;height:14px;}
+.ft-si:hover{border-color:var(--r);color:var(--r);}
+.ft-si.wa-ft{background:#25D366;border-color:#25D366;color:#fff;}
+.ft-si.wa-ft:hover{background:#1fbe5a;}
+.fc h4{font-size:.58rem;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,.2);margin-bottom:16px;}
+.fc ul{list-style:none;display:flex;flex-direction:column;gap:9px;}
+.fc a{font-size:.82rem;color:rgba(255,255,255,.38);text-decoration:none;transition:color .2s;}
+.fc a:hover{color:var(--rh);}
+.ft-bot{border-top:1px solid var(--rl);padding-top:20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;}
+.ft-c{font-size:.68rem;color:rgba(255,255,255,.18);}
+.ft-c em{color:var(--r);font-style:normal;}
+
+/* ══ RESPONSIVE ══ */
+@media(max-width:960px){
+  .nl,.nb{display:none!important;}
+  .bg{display:flex!important;}
+  .h-kpi,.h-scroll{display:none!important;}
+  .two,.two.fl{grid-template-columns:1fr!important;direction:ltr!important;}
+  .svc-g,.tst-g{grid-template-columns:1fr 1fr;}
+  .tg{grid-template-columns:1fr;}
+  .pg-s,.val-g,.stats{grid-template-columns:1fr 1fr;}
+  .ct-g{grid-template-columns:1fr;}
+  .ft-g{grid-template-columns:1fr 1fr;}
+  .fr{grid-template-columns:1fr;}
+  .br-g{grid-template-columns:repeat(4,1fr);}
+  #mob-cta{display:flex;}
+  body{padding-bottom:66px;}
+  footer{padding-bottom:90px;}
+  #wa-float{bottom:80px;}
+  .s{padding:56px 22px;}
+  nav{padding:0 20px;}
+  .tc-img{height:200px;}
+}
+@media(max-width:600px){
+  .svc-g,.tst-g,.pg-s,.val-g,.stats{grid-template-columns:1fr;}
+  .ft-g{grid-template-columns:1fr;}
+  .br-g{grid-template-columns:repeat(3,1fr);}
+  .h-h1 .line1,.h-h1 .line2{font-size:clamp(2.6rem,11.5vw,4rem);}
+  .s{padding:44px 18px;}
+  .tc-img{height:220px;}
+  .tg{gap:16px;background:transparent;}
+  .tc{border-radius:6px;border:1px solid var(--rl);}
+}
+@media(max-width:420px){
+  .h-acts{flex-direction:column;align-items:flex-start;}
+  .h-acts a{width:100%;max-width:320px;}
+}
+</style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div id="cur" aria-hidden="true"></div>
+<div id="rng" aria-hidden="true"></div>
+
+<!-- NAV -->
+<nav id="nav" role="navigation" aria-label="Main navigation">
+  <a class="logo" href="#home" onclick="go('home');return false;" aria-label="Thames Side Car Doctor — Home">
+    <div class="lm" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M6 22v2a1 1 0 002 0v-2h16v2a1 1 0 002 0v-2l2-8H4l2 8zm2-6h16l-1 4H9l-1-4zm1-6h14l1 3H8l1-3zM5 9h22v1H5z"/></svg></div>
+    <div><span class="lw1">Thames Side</span><span class="lw2">Car Doctor</span></div>
+  </a>
+  <ul class="nl" id="nul" role="list">
+    <li><a href="#home"     onclick="go('home');return false;"     data-p="home">Home</a></li>
+    <li><a href="#services" onclick="go('services');return false;" data-p="services">Services</a></li>
+    <li><a href="#tyres"    onclick="go('tyres');return false;"    data-p="tyres">Tyres</a></li>
+    <li><a href="#about"    onclick="go('about');return false;"    data-p="about">About</a></li>
+    <li><a href="#contact"  onclick="go('contact');return false;"  data-p="contact">Contact</a></li>
+  </ul>
+  <a class="nb" href="#contact" onclick="go('contact');return false;">Book Now</a>
+  <button class="bg" onclick="mob()" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mob-menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div id="mob-overlay" onclick="closeMob()"></div>
+<nav id="mob-menu" aria-label="Mobile navigation">
+  <a href="#home"     onclick="go('home');closeMob();return false;">Home</a>
+  <a href="#services" onclick="go('services');closeMob();return false;">Services</a>
+  <a href="#tyres"    onclick="go('tyres');closeMob();return false;">Tyres</a>
+  <a href="#about"    onclick="go('about');closeMob();return false;">About Us</a>
+  <a href="#contact"  onclick="go('contact');closeMob();return false;">Contact</a>
+  <a class="mob-cta" href="#contact" onclick="go('contact');closeMob();return false;">Book a Service</a>
+  <a class="mob-wa"  href="https://wa.me/447349820036?text=Hi%2C%20I%27d%20like%20to%20book" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.418A9.96 9.96 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.96 7.96 0 01-4.071-1.113l-.292-.173-3.013.859.872-2.933-.19-.302A7.96 7.96 0 014 12c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"/></svg>
+    WhatsApp Us
+  </a>
+</nav>
+
+<!-- ══════════ HOME ══════════ -->
+<div id="page-home" class="pg on">
+<main id="main-content">
+<section class="hero" aria-label="Hero">
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <div class="h-bg" style="background-image:url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1400&q=75&fm=webp')" aria-hidden="true"></div>
+  <div class="h-ov" aria-hidden="true"></div>
+  <div class="h-glow" aria-hidden="true"></div>
+  <div class="h-ct">
+    <div class="h-badge"><span class="bdot" aria-hidden="true"></span><span>Barking, East London &nbsp;·&nbsp; Open 24 / 7</span></div>
+    <h1 class="h-h1">
+      <span class="line1">Thames <span class="acc">Side</span></span>
+      <span class="line2"><span class="acc">Car</span>&nbsp;<span class="gh">Doctor</span></span>
+    </h1>
+    <p class="h-sub">Your car is in good hands. We fix tyres, engines, bodywork and everything in between from our workshop in Barking. Open all day, every day.</p>
+    <div class="h-acts">
+      <a href="#contact" class="btn-r" onclick="go('contact');return false;"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Book a Service</a>
+      <a href="https://wa.me/447349820036?text=Hi%2C%20I%27d%20like%20to%20book%20a%20service" class="btn-wa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.418A9.96 9.96 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.96 7.96 0 01-4.071-1.113l-.292-.173-3.013.859.872-2.933-.19-.302A7.96 7.96 0 014 12c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"/></svg>WhatsApp</a>
+      <a href="#services" class="btn-g" onclick="go('services');return false;">Our Services <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+  <div class="h-kpi" aria-label="Key stats">
+    <div><div class="kn">10<sub>K+</sub></div><div class="kl">Cars Served</div></div>
+    <div><div class="kn">24<sub>/7</sub></div><div class="kl">Always Open</div></div>
+    <div><div class="kn">15<sub>+</sub></div><div class="kl">Yrs Experience</div></div>
+  </div>
+  <div class="h-scroll" aria-hidden="true"><div class="h-scroll-bar"></div><span>Scroll</span></div>
+</section>
+
+<!-- TICKER -->
+<div class="tkr" aria-hidden="true">
+  <div class="tkr-t">
+    <span class="ti">Tyre Fitting</span><span class="ti">Body Work</span><span class="ti">PCO Hire Car</span><span class="ti">Number Plates</span><span class="ti">Mechanical</span><span class="ti">Insurance Claims</span><span class="ti">Mileage Correction</span><span class="ti">Diagnostics</span><span class="ti">Electrical</span><span class="ti">AdBlue</span><span class="ti">DPF Service</span><span class="ti">24hr Service</span>
+    <span class="ti">Tyre Fitting</span><span class="ti">Body Work</span><span class="ti">PCO Hire Car</span><span class="ti">Number Plates</span><span class="ti">Mechanical</span><span class="ti">Insurance Claims</span><span class="ti">Mileage Correction</span><span class="ti">Diagnostics</span><span class="ti">Electrical</span><span class="ti">AdBlue</span><span class="ti">DPF Service</span><span class="ti">24hr Service</span>
+  </div>
+</div>
+
+<!-- SERVICES GRID -->
+<section class="s">
+  <div class="lbl rv">What We Do</div>
+  <h2 class="h2 rv d1">One Workshop.<br><span class="d">Everything Your Car Needs.</span></h2>
+  <p class="bt rv d2">Most garages send you elsewhere for half these jobs. We do them all in Barking, under one roof, and we tell you exactly what we find before we touch anything.</p>
+  <div class="svc-g rv d3">
+    <div class="svc"><div class="svc-bg" aria-hidden="true">01</div><div class="svc-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/></svg></div><div class="svc-nm">Tyres and Fitting</div><p class="svc-d">We keep hundreds of tyres in stock from budget to premium. Most sizes fitted and balanced the same day while you wait.</p></div>
+    <div class="svc"><div class="svc-bg" aria-hidden="true">02</div><div class="svc-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></div><div class="svc-nm">Mechanical Repair</div><p class="svc-d">Brakes not right? Engine light on? Clutch slipping? We have seen it all. We fix it properly and explain what went wrong.</p></div>
+    <div class="svc"><div class="svc-bg" aria-hidden="true">03</div><div class="svc-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg></div><div class="svc-nm">Body Work</div><p class="svc-d">Dent, scratch or accident damage? We handle the repair and manage your insurance claim from start to finish.</p></div>
+    <div class="svc"><div class="svc-bg" aria-hidden="true">04</div><div class="svc-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><div class="svc-nm">Diagnostics</div><p class="svc-d">We plug in, read the codes and tell you exactly what the fault is before we quote. No guessing, no unnecessary parts.</p></div>
+    <div class="svc"><div class="svc-bg" aria-hidden="true">05</div><div class="svc-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><path d="M16 8h4l3 3v5h-7V8zM5.5 21a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/></svg></div><div class="svc-nm">PCO and Hire Cars</div><p class="svc-d">TfL PCO specialists. We get your vehicle through inspection and back earning as quickly as possible.</p></div>
+    <div class="svc"><div class="svc-bg" aria-hidden="true">06</div><div class="svc-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M3 3h18v18H3zM12 8v8M8 12h8"/></svg></div><div class="svc-nm">DPF and AdBlue</div><p class="svc-d">DPF warning light? We clean and regenerate filters properly. AdBlue top-up and injector servicing too.</p></div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats" role="region" aria-label="Business statistics">
+  <div class="st"><div class="sn"><em>10</em>K+</div><div class="sl">Cars Served</div></div>
+  <div class="st"><div class="sn">24<em>/7</em></div><div class="sl">Always Open</div></div>
+  <div class="st"><div class="sn"><em>15</em>+</div><div class="sl">Years Experience</div></div>
+  <div class="st"><div class="sn"><em>4.9</em>★</div><div class="sl">Google Rating</div></div>
+</div>
+
+<!-- 3D CAR GARAGE SECTION -->
+<section class="model-section">
+  <div class="model-header s" style="padding-bottom:32px;">
+    <div class="lbl rv">Our Workshop in 3D</div>
+    <h2 class="h2 rv d1">We Work on Every<br><span class="d">Make and Model</span></h2>
+    <p class="bt rv d2">From a Toyota Prius to a Ford Transit, we have seen them all. Drag to rotate the car and explore the scene.</p>
+  </div>
+  <canvas id="car3d" aria-label="Interactive 3D car model in a garage environment" role="img" style="width:100%;height:520px;display:block;cursor:grab;"></canvas>
+  <div class="model-footer">
+    <span class="bdot" aria-hidden="true"></span>
+    <span style="font-size:.62rem;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.45);">Interactive 3D Scene &nbsp;·&nbsp; Drag to rotate &nbsp;·&nbsp; Scroll to zoom</span>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="s bg2">
+  <div class="two">
+    <div class="pb rv" style="height:520px;">
+      <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=900&q=75&fm=webp" loading="lazy" alt="Mechanic working on a vehicle at Thames Side Car Doctor"/>
+      <div class="pb-cap"><span class="pb-dot" aria-hidden="true"></span><span class="pb-txt">Unit 2, 5 River Road, Barking</span></div>
+    </div>
+    <div>
+      <div class="lbl rv">Why Choose Us</div>
+      <h2 class="h2 rv d1">What Makes<br><span class="d">Us Different</span></h2>
+      <p class="bt rv d2">We have been in Barking for over 15 years. Our customers come back because we are straight with them and we do a good job every time.</p>
+      <div class="cks rv d2">
+        <div class="ck"><div class="ck-dot" aria-hidden="true"></div><span>Most jobs turned around the same day</span></div>
+        <div class="ck"><div class="ck-dot" aria-hidden="true"></div><span>You get a clear price before we start work</span></div>
+        <div class="ck"><div class="ck-dot" aria-hidden="true"></div><span>Open around the clock, seven days a week</span></div>
+        <div class="ck"><div class="ck-dot" aria-hidden="true"></div><span>We handle your insurance claim start to finish</span></div>
+        <div class="ck"><div class="ck-dot" aria-hidden="true"></div><span>PCO and hire car specialists who know TfL requirements</span></div>
+        <div class="ck"><div class="ck-dot" aria-hidden="true"></div><span>Manufacturer-level diagnostic equipment on site</span></div>
+      </div>
+      <div style="margin-top:28px;display:flex;gap:12px;flex-wrap:wrap;" class="rv d3">
+        <a href="tel:+447349820036" class="btn-r"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 010 2 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Call Now</a>
+        <a href="https://wa.me/447349820036" class="btn-wa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.418A9.96 9.96 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.96 7.96 0 01-4.071-1.113l-.292-.173-3.013.859.872-2.933-.19-.302A7.96 7.96 0 014 12c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"/></svg>WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="s">
+  <div class="lbl rv">Customer Reviews</div>
+  <h2 class="h2 rv d1">What People Say</h2>
+  <div class="reviews-bar rv d2">
+    <div class="rb-stars" aria-label="4.9 stars">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="#F5A623" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="#F5A623" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="#F5A623" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="#F5A623" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="#F5A623" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+    </div>
+    <span class="rb-text">4.9 &nbsp;·&nbsp; 200+ Google Reviews</span>
+    <a class="rb-link" href="https://maps.google.com/?q=Thames+Side+Car+Doctor+Barking" target="_blank" rel="noopener">See all reviews</a>
+  </div>
+  <div class="tst-g">
+    <div class="tt rv"><div class="stars" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="#F5A623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#F5A623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#F5A623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#F5A623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#F5A623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><p class="tt-q">"Thames Side sorted my tyres within the hour. Brilliant price and brilliant service. Hammad is always straight with you. Been coming back for years."</p><div class="tt-au"><div class="tt-av" aria-hidden="true">DK</div><div><div class="tt-nm">Daniel K.</div><div class="tt-ro">Toyota Prius Owner</div></div></div></div>
+    <div class="tt rv d1"><div class="stars" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="#F5A623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#F5A623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#F5A623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#F5A623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#F5A623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><p class="tt-q">"PCO needed urgent TfL inspection. They fit me in same day, sorted every fault and handled all the paperwork. Absolute lifesavers for my business."</p><div class="tt-au"><div class="tt-av" aria-hidden="true">AS</div><div><div class="tt-nm">Ahmed S.</div><div class="tt-ro">PCO Private Hire Driver</div></div></div></div>
+    <div class="tt rv d2"><div class="stars" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="#F5A623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#F5A623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#F5A623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#F5A623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg width="12" height="12" viewBox="0 0 24 24" fill="#F5A623"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><p class="tt-q">"DPF light on for weeks. Two other garages could not fix it. Thames Side diagnosed and cleared it the same afternoon. Cannot recommend them enough."</p><div class="tt-au"><div class="tt-av" aria-hidden="true">SM</div><div><div class="tt-nm">Sara M.</div><div class="tt-ro">Ford Transit Owner</div></div></div></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-s">
+  <div class="cta-bg" style="background-image:url('https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=1200&q=75&fm=webp')" aria-hidden="true"></div>
+  <div class="cta-ov" aria-hidden="true"></div>
+  <div class="cta-in">
+    <p class="cta-lbl">Get in Touch</p>
+    <h2 class="cta-h">Need your car<br>sorted <span>today?</span></h2>
+    <p class="cta-p">Call us, send a WhatsApp or fill in the booking form. We are at Unit 2, 5 River Road in Barking and we are open right now.</p>
+    <div class="cta-bts">
+      <a href="#contact" class="btn-r" onclick="go('contact');return false;">Book a Service</a>
+      <a href="https://wa.me/447349820036?text=Hi%2C%20I%27d%20like%20to%20book" class="btn-wa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.418A9.96 9.96 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.96 7.96 0 01-4.071-1.113l-.292-.173-3.013.859.872-2.933-.19-.302A7.96 7.96 0 014 12c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"/></svg>WhatsApp Us</a>
+      <a href="tel:+447349820036" class="btn-ln"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 010 2 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>+44 7349 820036</a>
+    </div>
+  </div>
+</div>
+</main>
+</div>
+
+<!-- ══════════ SERVICES ══════════ -->
+<div id="page-services" class="pg">
+<div class="ph"><div class="ph-bg" style="background-image:url('https://images.unsplash.com/photo-1504222490345-c075b7c1f8fe?w=1200&q=75&fm=webp')"></div><div class="ph-gr"></div><div class="ph-in"><div class="lbl" style="margin-bottom:8px">Full Service Menu</div><h1 class="ph-h">Our Services</h1></div></div>
+<section class="s">
+  <div class="lbl rv">All Services</div>
+  <h2 class="h2 rv d1">Everything Under<br><span class="d">One Roof</span></h2>
+  <div class="svc-g rv d2">
+    <div class="svc"><div class="svc-bg" aria-hidden="true">01</div><div class="svc-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/></svg></div><div class="svc-nm">Tyres and Fitting</div><p class="svc-d">Hundreds of tyres in stock. Budget to premium brands, all sizes. Fitted, balanced and pressures set while you wait.</p></div>
+    <div class="svc"><div class="svc-bg" aria-hidden="true">02</div><div class="svc-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></div><div class="svc-nm">Mechanical Repair</div><p class="svc-d">Brakes, suspension, exhausts, clutches, timing belts and full engine work. All makes and models welcome.</p></div>
+    <div class="svc"><div class="svc-bg" aria-hidden="true">03</div><div class="svc-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg></div><div class="svc-nm">Body Work</div><p class="svc-d">Dent removal, scratch repair, bumper refurb, painting and full insurance claim management from first call to finish.</p></div>
+    <div class="svc"><div class="svc-bg" aria-hidden="true">04</div><div class="svc-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><div class="svc-nm">Diagnostics</div><p class="svc-d">OBD2 fault code reading, TPMS, ABS and airbag diagnostics. We tell you exactly what the problem is before we quote.</p></div>
+    <div class="svc"><div class="svc-bg" aria-hidden="true">05</div><div class="svc-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><path d="M16 8h4l3 3v5h-7V8zM5.5 21a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/></svg></div><div class="svc-nm">PCO and Hire Cars</div><p class="svc-d">We know exactly what TfL wants to see. Pre-inspection servicing, fault clearing and certificates. Fast turnaround for drivers.</p></div>
+    <div class="svc"><div class="svc-bg" aria-hidden="true">06</div><div class="svc-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg></div><div class="svc-nm">DPF and AdBlue</div><p class="svc-d">DPF cleaning, regeneration and replacement. AdBlue top-up, injector and SCR system servicing for all diesel vehicles.</p></div>
+    <div class="svc"><div class="svc-bg" aria-hidden="true">07</div><div class="svc-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div><div class="svc-nm">Electrical</div><p class="svc-d">Starter motors, alternators, battery testing and replacement, lighting faults and full wiring diagnosis.</p></div>
+    <div class="svc"><div class="svc-bg" aria-hidden="true">08</div><div class="svc-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg></div><div class="svc-nm">Mileage Correction</div><p class="svc-d">Accurate odometer recalibration for fleet and hire vehicles. Fully documented service with written record.</p></div>
+    <div class="svc"><div class="svc-bg" aria-hidden="true">09</div><div class="svc-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="15" rx="2"/><polyline points="17 2 12 7 7 2"/></svg></div><div class="svc-nm">Number Plates</div><p class="svc-d">Road-legal DVLA-compliant replacement plates made same day. Custom show plates also available.</p></div>
+  </div>
+  <div style="margin-top:44px;display:flex;gap:12px;flex-wrap:wrap;" class="rv">
+    <a href="#contact" class="btn-r" onclick="go('contact');return false;">Book Any Service</a>
+    <a href="https://wa.me/447349820036?text=Hi%2C%20I%27d%20like%20a%20quick%20quote" class="btn-wa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.418A9.96 9.96 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.96 7.96 0 01-4.071-1.113l-.292-.173-3.013.859.872-2.933-.19-.302A7.96 7.96 0 014 12c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"/></svg>Quick WhatsApp Quote</a>
+  </div>
+</section>
+<section class="s bg2">
+  <div class="lbl rv">How It Works</div>
+  <h2 class="h2 rv d1">4 Simple Steps</h2>
+  <div class="pg-s rv d2">
+    <div class="step"><div class="step-n" aria-hidden="true">01</div><div class="step-ic" aria-hidden="true"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 010 2 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div><div class="step-t">Book or Call</div><p class="step-d">Call, WhatsApp or fill in the booking form online. We respond within 2 hours.</p></div>
+    <div class="step"><div class="step-n" aria-hidden="true">02</div><div class="step-ic" aria-hidden="true"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><div class="step-t">We Diagnose</div><p class="step-d">Free diagnostic check with every booking. No surprises. We show you the fault first.</p></div>
+    <div class="step"><div class="step-n" aria-hidden="true">03</div><div class="step-ic" aria-hidden="true"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></div><div class="step-t">We Fix It</div><p class="step-d">Fast turnaround. Most jobs done same day. We keep you updated throughout.</p></div>
+    <div class="step"><div class="step-n" aria-hidden="true">04</div><div class="step-ic" aria-hidden="true"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><div class="step-t">Back on the Road</div><p class="step-d">Car back, road ready. 3-month warranty on all repairs. Transparent invoice.</p></div>
+  </div>
+</section>
+</div>
+
+<!-- ══════════ TYRES ══════════ -->
+<div id="page-tyres" class="pg">
+<div class="ph"><div class="ph-bg" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=75&fm=webp')"></div><div class="ph-gr"></div><div class="ph-in"><div class="lbl" style="margin-bottom:8px">Tyre Specialists</div><h1 class="ph-h">Tyres and<br>Fitting</h1></div></div>
+<section class="s">
+  <div class="lbl rv">Tyre Range</div>
+  <h2 class="h2 rv d1">The Right Tyre<br><span class="d">at the Right Price</span></h2>
+  <p class="bt rv d2">We stock hundreds of tyres in Barking and can fit most sizes the same day. Whether you want the cheapest safe option or a top-brand Michelin, we will find you the right tyre and fit it while you wait.</p>
+  <div class="tg rv d3">
+
+    <!-- BUDGET -->
+    <div class="tc">
+      <div class="tc-img">
+        <!-- Proper budget tyre tread close-up -->
+        <img
+          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80&fm=webp"
+          loading="lazy"
+          alt="Budget car tyre tread pattern close up"
+        />
+        <div class="tc-badge">Budget</div>
+      </div>
+      <div class="tc-b">
+        <div class="tc-tag tag-n">In Stock</div>
+        <div class="tc-nm">Budget Tyres</div>
+        <p class="tc-d">Safe, legal and reliable for everyday city driving. We only stock budget tyres that pass our quality check. Great if you need to keep costs down without cutting corners on safety.</p>
+        <div class="tc-pr">from £45 <small>/ tyre fitted</small></div>
+        <button class="tc-cta" onclick="go('contact','tyres');">Get a Quote today <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </div>
+    </div>
+
+    <!-- MID RANGE -->
+    <div class="tc">
+      <div class="tc-img">
+        <!-- Mid range tyre on alloy wheel -->
+        <img
+          src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=700&q=80&fm=webp"
+          loading="lazy"
+          alt="Mid range tyre fitted on a silver alloy wheel"
+        />
+        <div class="tc-badge">Mid Range</div>
+      </div>
+      <div class="tc-b">
+        <div class="tc-tag tag-n">Most Popular</div>
+        <div class="tc-nm">Mid-Range Tyres</div>
+        <p class="tc-d">Firestone, Kumho, Hankook and Falken. Better wet-road grip and longer tread life than budget. This is what most of our customers go for. A solid tyre that will not let you down.</p>
+        <div class="tc-pr">from £65 <small>/ tyre fitted</small></div>
+        <button class="tc-cta" onclick="go('contact','tyres');">Get a Quote today <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </div>
+    </div>
+
+    <!-- PREMIUM -->
+    <div class="tc">
+      <div class="tc-img">
+        <!-- Michelin / premium tyre branding and tread -->
+        <img
+          src="https://images.unsplash.com/photo-1600661653561-629509216228?w=700&q=80&fm=webp"
+          loading="lazy"
+          alt="Premium Michelin tyre showing branded sidewall and tread"
+        />
+        <div class="tc-badge">Premium</div>
+      </div>
+      <div class="tc-b">
+        <div class="tc-tag tag-u">Michelin · Pirelli · Continental</div>
+        <div class="tc-nm">Premium Tyres</div>
+        <p class="tc-d">Michelin, Pirelli, Continental and Bridgestone. The best stopping distances, the best wet grip and the longest life. Worth every penny if you drive regularly or cover high mileage.</p>
+        <div class="tc-pr">from £95 <small>/ tyre fitted</small></div>
+        <button class="tc-cta" onclick="go('contact','tyres');">Get a Quote today <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="br-wrap rv">
+    <p class="br-title">Brands We Stock</p>
+    <div class="br-g">
+      <div class="br-c"><div class="br-ic">MI</div><div class="br-nm">Michelin</div></div>
+      <div class="br-c"><div class="br-ic">PI</div><div class="br-nm">Pirelli</div></div>
+      <div class="br-c"><div class="br-ic">CO</div><div class="br-nm">Continental</div></div>
+      <div class="br-c"><div class="br-ic">BR</div><div class="br-nm">Bridgestone</div></div>
+      <div class="br-c"><div class="br-ic">GO</div><div class="br-nm">Goodyear</div></div>
+      <div class="br-c"><div class="br-ic">DU</div><div class="br-nm">Dunlop</div></div>
+    </div>
+  </div>
+
+  <div style="margin-top:44px;padding:32px;background:var(--k2);border:1px solid var(--rl);border-radius:8px;" class="rv">
+    <div class="lbl" style="margin-bottom:12px;">What Is Included with Every Fitting</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px 32px;">
+      <div class="ck"><div class="ck-dot" aria-hidden="true"></div><span>Tyre mounted and seated on your wheel</span></div>
+      <div class="ck"><div class="ck-dot" aria-hidden="true"></div><span>Wheel balanced with new weights</span></div>
+      <div class="ck"><div class="ck-dot" aria-hidden="true"></div><span>Old tyre removed and disposed safely</span></div>
+      <div class="ck"><div class="ck-dot" aria-hidden="true"></div><span>Valve replaced as standard</span></div>
+      <div class="ck"><div class="ck-dot" aria-hidden="true"></div><span>TPMS sensor checked and reset</span></div>
+      <div class="ck"><div class="ck-dot" aria-hidden="true"></div><span>Tyre pressure set to your vehicle spec</span></div>
+    </div>
+    <div style="margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;">
+      <a href="#contact" class="btn-r" onclick="go('contact','tyres');return false;">Book a Tyre Fitting</a>
+      <a href="https://wa.me/447349820036?text=Hi%2C%20I%20need%20a%20tyre%20quote%20please" class="btn-wa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.418A9.96 9.96 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.96 7.96 0 01-4.071-1.113l-.292-.173-3.013.859.872-2.933-.19-.302A7.96 7.96 0 014 12c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"/></svg>WhatsApp for a Quick Price</a>
+    </div>
+  </div>
+</section>
+</div>
+
+<!-- ══════════ ABOUT ══════════ -->
+<div id="page-about" class="pg">
+<div class="ph"><div class="ph-bg" style="background-image:url('https://images.unsplash.com/photo-1543465077-db45d34b88a5?w=1200&q=75&fm=webp')"></div><div class="ph-gr"></div><div class="ph-in"><div class="lbl" style="margin-bottom:8px">Our Story</div><h1 class="ph-h">Thames Side<br>Car Doctor</h1></div></div>
+<section class="s bg2">
+  <div class="two">
+    <div class="pb rv" style="height:500px;"><img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=900&q=75&fm=webp" loading="lazy" alt="Thames Side Car Doctor workshop interior"/><div class="pb-cap"><span class="pb-dot" aria-hidden="true"></span><span class="pb-txt">Our Workshop, Barking IG11</span></div></div>
+    <div class="rv d1">
+      <div class="lbl">Who We Are</div>
+      <h2 class="h2">A Garage You Can<br><span class="d">Actually Trust</span></h2>
+      <p class="bt">Thames Side Car Doctor has been on River Road in Barking for over 15 years. We started out as a small tyre shop. Over time word spread and we grew into a full-service garage that now looks after thousands of private cars, PCO vehicles and small fleets across East London.</p>
+      <p class="bt">Our founder Hammad has always run things on one simple rule: be straight with people. No made-up faults, no charging for parts that do not need replacing. If your car does not need a job done, we will tell you. That is why so many of our customers have been coming back for years and send their family and friends to us.</p>
+      <div style="margin-top:28px;display:flex;gap:12px;flex-wrap:wrap;">
+        <a href="#contact" class="btn-r" onclick="go('contact');return false;">Get in Touch</a>
+        <a href="https://wa.me/447349820036" class="btn-wa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.418A9.96 9.96 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.96 7.96 0 01-4.071-1.113l-.292-.173-3.013.859.872-2.933-.19-.302A7.96 7.96 0 014 12c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"/></svg>WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="s">
+  <div class="lbl rv">Our Values</div>
+  <h2 class="h2 rv d1">What We Stand For</h2>
+  <div class="val-g rv d2">
+    <div class="val"><div class="val-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div class="val-t">Honest Prices</div><p class="val-d">We quote before we start. What we say is what you pay. No surprises when you collect your car.</p></div>
+    <div class="val"><div class="val-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="val-t">Done the Same Day</div><p class="val-d">We know you need your car back. Most repairs are ready the same day you bring it in.</p></div>
+    <div class="val"><div class="val-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div><div class="val-t">Part of the Community</div><p class="val-d">We have been in Barking for over 15 years. We know our customers by name and like it that way.</p></div>
+    <div class="val"><div class="val-ic" aria-hidden="true"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div><div class="val-t">We Back Our Work</div><p class="val-d">Every repair has a 3-month warranty on parts and labour. Bring it back if anything is not right.</p></div>
+  </div>
+</section>
+</div>
+
+<!-- ══════════ CONTACT ══════════ -->
+<div id="page-contact" class="pg">
+<div class="ph"><div class="ph-bg" style="background-image:url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1200&q=75&fm=webp')"></div><div class="ph-gr"></div><div class="ph-in"><div class="lbl" style="margin-bottom:8px">Get in Touch</div><h1 class="ph-h">Book a<br>Service</h1></div></div>
+<section class="s">
+  <div class="ct-g">
+    <div class="rv">
+      <div class="av-box"><svg width="8" height="8" viewBox="0 0 8 8" aria-hidden="true"><circle cx="4" cy="4" r="4" fill="#25D366"/></svg><span>Open 24 / 7 Including Weekends</span></div>
+      <a class="wa-contact-btn" href="https://wa.me/447349820036?text=Hi%2C%20I%27d%20like%20to%20book%20a%20service" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.418A9.96 9.96 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.96 7.96 0 01-4.071-1.113l-.292-.173-3.013.859.872-2.933-.19-.302A7.96 7.96 0 014 12c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"/></svg>WhatsApp Us Directly</a>
+      <div class="ci"><div class="ci-ic" aria-hidden="true"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 010 2 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div><div><div class="ci-lb">Phone</div><div class="ci-v"><a href="tel:+447349820036" style="color:inherit;text-decoration:none;">+44 7349 820036</a></div></div></div>
+      <div class="ci"><div class="ci-ic" aria-hidden="true"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div><div class="ci-lb">Email</div><div class="ci-v"><a href="mailto:thamessidecardoctorltd@gmail.com" style="color:inherit;text-decoration:none;">thamessidecardoctorltd@gmail.com</a></div></div></div>
+      <div class="ci"><div class="ci-ic" aria-hidden="true"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><div class="ci-lb">Address</div><div class="ci-v">Unit 2, 5 River Road<br>Barking, IG11 0JS</div></div></div>
+      <div class="map-b"><iframe src="https://maps.google.com/maps?q=Unit+2+5+River+Road+Barking+IG11+0JS&output=embed" loading="lazy" title="Thames Side Car Doctor location"></iframe><div class="map-ov" aria-hidden="true"></div></div>
+    </div>
+    <div class="rv d1">
+      <div id="bform">
+        <div class="step-ind" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="2" aria-label="Step 1 of 2">
+          <div class="si active" id="si1">1</div>
+          <div class="si-line" id="sil1"></div>
+          <div class="si pending" id="si2">2</div>
+        </div>
+        <div class="step-label" id="step-lbl">Step 1 of 2 — Contact Details</div>
+        <div class="form-step active" id="fstep1">
+          <div class="fr">
+            <div class="fg"><label for="f-fname">First Name *</label><input type="text" id="f-fname" name="first_name" placeholder="Mohammed" required autocomplete="given-name"/></div>
+            <div class="fg"><label for="f-lname">Last Name</label><input type="text" id="f-lname" name="last_name" placeholder="Ali" autocomplete="family-name"/></div>
+          </div>
+          <div class="fg"><label for="f-phone">Phone Number *</label><input type="tel" id="f-phone" name="phone" placeholder="+44 7xxx xxxxxx" required autocomplete="tel"/></div>
+          <div class="fg"><label for="f-email">Email Address</label><input type="email" id="f-email" name="email" placeholder="you@email.com" autocomplete="email"/></div>
+          <div class="fg"><label for="f-service">Service Required *</label>
+            <select id="f-service" name="service" required>
+              <option value="">Select a service...</option>
+              <option value="Tyres &amp; Fitting">Tyres and Fitting</option>
+              <option value="Mechanical Repair">Mechanical Repair</option>
+              <option value="Body Work">Body Work</option>
+              <option value="Diagnostics">Diagnostics</option>
+              <option value="PCO Services">PCO Services</option>
+              <option value="DPF &amp; AdBlue">DPF and AdBlue</option>
+              <option value="Electrical">Electrical</option>
+              <option value="Other">Other / Not Sure</option>
+            </select>
+          </div>
+          <button type="button" class="btn-r" onclick="nextStep()" style="width:100%;">Next Step</button>
+        </div>
+        <div class="form-step" id="fstep2">
+          <div class="fg"><label for="f-make">Vehicle Make and Model</label><input type="text" id="f-make" name="vehicle" placeholder="e.g. Toyota Prius 2019"/></div>
+          <div class="fg"><label for="f-date">Preferred Date</label><input type="date" id="f-date" name="preferred_date"/></div>
+          <div class="fg"><label for="f-msg">Anything Else We Should Know</label><textarea id="f-msg" name="message" placeholder="Describe the issue or any symptoms..."></textarea></div>
+          <div class="f-ft">
+            <button type="button" class="btn-g" onclick="prevStep()">Back</button>
+            <button type="button" class="btn-r" id="f-btn" onclick="submitForm()" style="flex:1;">Send Booking Request</button>
+          </div>
+          <p id="f-status" aria-live="polite"></p>
+        </div>
+      </div>
+      <div id="fsuc" role="alert">
+        <p>Booking received. We will call you within 2 hours to confirm your appointment.<br><br>
+        Save our number: <a href="tel:+447349820036" style="color:#3ecf6c;font-weight:600;">+44 7349 820036</a><br>
+        Or reach us on WhatsApp: <a href="https://wa.me/447349820036" target="_blank" style="color:#25D366;font-weight:600;">wa.me/447349820036</a><br><br>
+        <span style="font-size:.82rem;color:rgba(80,220,80,.65);">Unit 2, 5 River Road, Barking IG11 0JS</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<!-- SHARED FOOTER -->
+<footer id="site-footer">
+  <div class="ft-g">
+    <div>
+      <a href="#home" onclick="go('home');return false;" class="logo">
+        <div class="lm" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M6 22v2a1 1 0 002 0v-2h16v2a1 1 0 002 0v-2l2-8H4l2 8zm2-6h16l-1 4H9l-1-4zm1-6h14l1 3H8l1-3zM5 9h22v1H5z" fill="#fff"/></svg></div>
+        <div><span class="lw1">Thames Side</span><span class="lw2">Car Doctor</span></div>
+      </a>
+      <p class="ft-desc">Tyre fitting, mechanical repairs and body work in Barking, East London. All cars and vans. Open 24 hours a day.</p>
+      <div class="ft-soc" aria-label="Social links">
+        <a class="ft-si wa-ft" href="https://wa.me/447349820036" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.418A9.96 9.96 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.96 7.96 0 01-4.071-1.113l-.292-.173-3.013.859.872-2.933-.19-.302A7.96 7.96 0 014 12c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"/></svg></a>
+        <a class="ft-si" href="tel:+447349820036" aria-label="Call us"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 010 2 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></a>
+      </div>
+    </div>
+    <div class="fc"><h4>Services</h4><ul>
+      <li><a href="#services" onclick="go('services');return false;">Tyres and Fitting</a></li>
+      <li><a href="#services" onclick="go('services');return false;">Mechanical Repair</a></li>
+      <li><a href="#services" onclick="go('services');return false;">Body Work</a></li>
+      <li><a href="#services" onclick="go('services');return false;">Diagnostics</a></li>
+      <li><a href="#services" onclick="go('services');return false;">PCO Cars</a></li>
+      <li><a href="#services" onclick="go('services');return false;">DPF and AdBlue</a></li>
+    </ul></div>
+    <div class="fc"><h4>Company</h4><ul>
+      <li><a href="#home" onclick="go('home');return false;">Home</a></li>
+      <li><a href="#about" onclick="go('about');return false;">About Us</a></li>
+      <li><a href="#tyres" onclick="go('tyres');return false;">Tyres</a></li>
+      <li><a href="#contact" onclick="go('contact');return false;">Contact</a></li>
+      <li><a href="#contact" onclick="go('contact');return false;">Book Online</a></li>
+    </ul></div>
+    <div class="fc"><h4>Find Us</h4><ul>
+      <li><a href="https://maps.google.com/?q=Unit+2+5+River+Road+Barking" target="_blank" rel="noopener">Unit 2, 5 River Road</a></li>
+      <li><a href="https://maps.google.com/?q=Unit+2+5+River+Road+Barking" target="_blank" rel="noopener">Barking, IG11 0JS</a></li>
+      <li><a href="tel:+447349820036">+44 7349 820036</a></li>
+      <li><a href="mailto:thamessidecardoctorltd@gmail.com">Email Us</a></li>
+      <li><a href="https://wa.me/447349820036" target="_blank" rel="noopener">WhatsApp Us</a></li>
+    </ul></div>
+  </div>
+  <div class="ft-bot">
+    <span class="ft-c">2025 <em>Thames Side Car Doctor Ltd</em>. All rights reserved.</span>
+    <span class="ft-c">Unit 2, 5 River Road, Barking IG11 0JS</span>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a id="wa-float" href="https://wa.me/447349820036?text=Hi%2C%20I%27d%20like%20to%20book%20a%20service" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <div class="wa-pulse" aria-hidden="true"></div>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.418A9.96 9.96 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.96 7.96 0 01-4.071-1.113l-.292-.173-3.013.859.872-2.933-.19-.302A7.96 7.96 0 014 12c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"/></svg>
+</a>
+
+<!-- MOBILE STICKY BAR -->
+<div id="mob-cta" role="complementary" aria-label="Quick contact">
+  <a href="tel:+447349820036" class="mca-call" aria-label="Call us now">📞 Call Now</a>
+  <a href="https://wa.me/447349820036?text=Hi%2C%20I%27d%20like%20to%20book" class="mca-wa" target="_blank" rel="noopener" aria-label="WhatsApp us">
+    <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.978-1.418A9.96 9.96 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.96 7.96 0 01-4.071-1.113l-.292-.173-3.013.859.872-2.933-.19-.302A7.96 7.96 0 014 12c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"/></svg>
+    WhatsApp
+  </a>
+</div>
+
+<!-- THREE.JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+/* ══ HERO TYRE — desktop only ══ */
+(function(){
+  if(window.matchMedia('(pointer:coarse)').matches||window.innerWidth<768)return;
+  const cv=document.getElementById('hero-canvas');if(!cv)return;
+  const rnd=new THREE.WebGLRenderer({canvas:cv,alpha:true,antialias:true});
+  rnd.setPixelRatio(Math.min(devicePixelRatio,2));rnd.setSize(innerWidth,innerHeight);rnd.setClearColor(0,0);
+  const sc=new THREE.Scene(),cam=new THREE.PerspectiveCamera(50,innerWidth/innerHeight,.1,100);
+  cam.position.set(3,1.5,6);
+  sc.add(new THREE.AmbientLight(0x111111,1));
+  const dl=new THREE.DirectionalLight(0xC8000F,2.2);dl.position.set(5,5,3);sc.add(dl);
+  const rl=new THREE.DirectionalLight(0xff3322,1);rl.position.set(-4,-1,-4);sc.add(rl);
+  const tM=new THREE.MeshStandardMaterial({color:0x0a0a0a,roughness:.93,metalness:.04});
+  const rM=new THREE.MeshStandardMaterial({color:0xC8000F,roughness:.3,metalness:.8,emissive:0x880008,emissiveIntensity:.4});
+  const ty=new THREE.Mesh(new THREE.TorusGeometry(1.6,.55,32,100),tM);
+  const ri=new THREE.Mesh(new THREE.TorusGeometry(1.0,.22,24,80),rM);
+  ty.rotation.x=ri.rotation.x=Math.PI/2;ty.position.x=ri.position.x=2.4;sc.add(ty);sc.add(ri);
+  for(let i=0;i<5;i++){const s=new THREE.Mesh(new THREE.CylinderGeometry(.04,.04,1.6,8),rM);const a=(i/5)*Math.PI*2;s.position.set(2.4+Math.cos(a)*.6,Math.sin(a)*.6,0);s.rotation.z=a+Math.PI/2;sc.add(s);}
+  const pg=new THREE.BufferGeometry();const pp=new Float32Array(80*3);
+  for(let i=0;i<80;i++){pp[i*3]=(Math.random()-.5)*16;pp[i*3+1]=(Math.random()-.5)*9;pp[i*3+2]=(Math.random()-.5)*6-2;}
+  pg.setAttribute('position',new THREE.BufferAttribute(pp,3));
+  sc.add(new THREE.Points(pg,new THREE.PointsMaterial({color:0xC8000F,size:.04,transparent:true,opacity:.45})));
+  let f=0;(function loop(){requestAnimationFrame(loop);f++;ty.rotation.y+=.006;ri.rotation.y+=.006;ty.position.y=ri.position.y=Math.sin(f*.008)*.14;rnd.render(sc,cam);})();
+  addEventListener('resize',()=>{cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix();rnd.setSize(innerWidth,innerHeight);});
+})();
+
+/* ══ 3D GARAGE + REALISTIC CAR ══ */
+(function(){
+  const cv=document.getElementById('car3d');if(!cv)return;
+  /* Responsive size */
+  function getSize(){return{w:cv.parentElement.clientWidth,h:Math.min(520,Math.max(300,cv.parentElement.clientWidth*0.52))};}
+  let {w,h}=getSize();
+  const rnd=new THREE.WebGLRenderer({canvas:cv,antialias:true});
+  rnd.setPixelRatio(Math.min(devicePixelRatio,2));rnd.setSize(w,h);rnd.shadowMap.enabled=true;
+  cv.style.height=h+'px';
+  const sc=new THREE.Scene();
+  sc.background=new THREE.Color(0x040408);
+  sc.fog=new THREE.FogExp2(0x040408,.03);
+  const cam=new THREE.PerspectiveCamera(42,w/h,.1,300);
+  cam.position.set(7,3.5,9);cam.lookAt(0,.6,0);
+
+  /* ── LIGHTS ── */
+  sc.add(new THREE.AmbientLight(0x0a0a1a,4));
+  const sun=new THREE.DirectionalLight(0xfff5e0,3);sun.position.set(10,14,8);sun.castShadow=true;sun.shadow.mapSize.width=2048;sun.shadow.mapSize.height=2048;sc.add(sun);
+  const fill=new THREE.DirectionalLight(0x2244aa,.9);fill.position.set(-8,5,-6);sc.add(fill);
+
+  /* Red shop lights overhead */
+  const mkLight=(x,y,z,int,range)=>{const pl=new THREE.PointLight(0xC8000F,int,range);pl.position.set(x,y,z);sc.add(pl);return pl;};
+  const rL1=mkLight(-3,5,2,8,22);const rL2=mkLight(3,5,-2,8,22);const rL3=mkLight(0,4,5,5,18);
+  const underL=mkLight(0,-.2,0,4,10);
+  /* White workshop fluorescent strip */
+  const wL1=new THREE.PointLight(0xeef5ff,4,28);wL1.position.set(0,8,0);sc.add(wL1);
+  const wL2=new THREE.PointLight(0xeef5ff,3,22);wL2.position.set(-4,8,-3);sc.add(wL2);
+
+  /* ── GROUND / FLOOR ── */
+  const floorMat=new THREE.MeshStandardMaterial({color:0x0e0e14,roughness:.88,metalness:.12});
+  const floor=new THREE.Mesh(new THREE.PlaneGeometry(60,60),floorMat);
+  floor.rotation.x=-Math.PI/2;floor.position.y=-.85;floor.receiveShadow=true;sc.add(floor);
+
+  /* Floor markings */
+  const lineMat=new THREE.MeshStandardMaterial({color:0xC8000F,roughness:.9,emissive:0x440002,emissiveIntensity:.3});
+  [[0,7],[0,-7],[-3.5,0],[3.5,0]].forEach(([x,z])=>{
+    const g=new THREE.PlaneGeometry(x===0?14:.08,z===0?.08:14);
+    const m=new THREE.Mesh(g,lineMat);m.rotation.x=-Math.PI/2;m.position.set(x,-.84,z);sc.add(m);
+  });
+
+  /* Grid */
+  const grid=new THREE.GridHelper(40,40,0x1a0005,0x100003);grid.position.y=-.83;sc.add(grid);
+
+  /* ── GARAGE WALLS ── */
+  const wallMat=new THREE.MeshStandardMaterial({color:0x0d0d14,roughness:.95,metalness:.05});
+  const walls=[
+    [40,.04,25, 0,11.5,-12.5,   0,0,0],   // back wall
+    [.04,25,40,-20,12,0,          0,0,0],   // left wall
+    [.04,25,40, 20,12,0,          0,0,0],   // right wall
+  ];
+  walls.forEach(([w,h,d,x,y,z])=>{const m=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),wallMat);m.position.set(x,y,z);m.receiveShadow=true;sc.add(m);});
+
+  /* Red accent stripe on back wall */
+  const stripe=new THREE.Mesh(new THREE.BoxGeometry(40,.18,.02),new THREE.MeshStandardMaterial({color:0xC8000F,emissive:0xC8000F,emissiveIntensity:.6}));
+  stripe.position.set(0,1.8,-12.48);sc.add(stripe);
+
+  /* Ceiling */
+  const ceil=new THREE.Mesh(new THREE.PlaneGeometry(40,40),new THREE.MeshStandardMaterial({color:0x0a0a12,roughness:.95}));
+  ceil.rotation.x=Math.PI/2;ceil.position.y=24;sc.add(ceil);
+
+  /* Fluorescent light strips */
+  const stripMat=new THREE.MeshStandardMaterial({color:0xddeeff,emissive:0xddeeff,emissiveIntensity:1.5});
+  [-4,0,4].forEach(x=>{const s=new THREE.Mesh(new THREE.BoxGeometry(.15,.05,3.5),stripMat);s.position.set(x,9,-2);sc.add(s);});
+
+  /* Tool cabinet */
+  const cabMat=new THREE.MeshStandardMaterial({color:0x1a1a24,roughness:.7,metalness:.6});
+  const cab=new THREE.Mesh(new THREE.BoxGeometry(2.5,3.5,.7),cabMat);cab.position.set(-7.5,.9,-8);cab.castShadow=true;sc.add(cab);
+  /* Cabinet drawers */
+  const drawerMat=new THREE.MeshStandardMaterial({color:0xC8000F,roughness:.4,metalness:.8});
+  for(let i=0;i<4;i++){const d=new THREE.Mesh(new THREE.BoxGeometry(2.2,.55,.08),cabMat);d.position.set(-7.5,.1+i*.7+.3,-8.32);sc.add(d);const h2=new THREE.Mesh(new THREE.BoxGeometry(1,.1,.06),drawerMat);h2.position.set(-7.5,.1+i*.7+.3,-8.36);sc.add(h2);}
+
+  /* Tyre stack on left */
+  const tyStack=new THREE.MeshStandardMaterial({color:0x111111,roughness:.95});
+  for(let i=0;i<4;i++){const t=new THREE.Mesh(new THREE.TorusGeometry(.45,.18,12,32),tyStack);t.rotation.x=Math.PI/2;t.position.set(-8.5,-.48+i*.36,-4);t.castShadow=true;sc.add(t);}
+
+  /* ── BUILD REALISTIC CAR ── */
+  const carGrp=new THREE.Group();sc.add(carGrp);
+
+  const bodyDark=new THREE.MeshStandardMaterial({color:0x14141c,roughness:.2,metalness:.88,envMapIntensity:1.2});
+  const glass=new THREE.MeshStandardMaterial({color:0x1a3355,roughness:.04,metalness:.05,transparent:true,opacity:.65});
+  const redTrim=new THREE.MeshStandardMaterial({color:0xC8000F,roughness:.18,metalness:.92,emissive:0x440002,emissiveIntensity:.5});
+  const chrome=new THREE.MeshStandardMaterial({color:0xe8e8e8,roughness:.08,metalness:.98});
+  const rubber=new THREE.MeshStandardMaterial({color:0x090909,roughness:.96});
+  const rim=new THREE.MeshStandardMaterial({color:0xc8c8c8,roughness:.12,metalness:.98});
+  const headMat=new THREE.MeshStandardMaterial({color:0xffeecc,emissive:0xffcc44,emissiveIntensity:2.5,roughness:.0});
+  const tailMat=new THREE.MeshStandardMaterial({color:0xff2200,emissive:0xff0000,emissiveIntensity:2.8,roughness:.0});
+  const darkRubber=new THREE.MeshStandardMaterial({color:0x080808,roughness:.95});
+
+  function box(w,h,d,mat,x,y,z,rx,ry,rz){
+    const m=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),mat);
+    m.castShadow=true;m.position.set(x,y,z);
+    if(rx)m.rotation.x=rx;if(ry)m.rotation.y=ry;if(rz)m.rotation.z=rz;
+    carGrp.add(m);return m;
+  }
+  function cyl(rt,rb,h,seg,mat,x,y,z,rx,ry,rz){
+    const m=new THREE.Mesh(new THREE.CylinderGeometry(rt,rb,h,seg),mat);
+    m.castShadow=true;m.position.set(x,y,z);
+    if(rx)m.rotation.x=rx;if(ry)m.rotation.y=ry;if(rz)m.rotation.z=rz;
+    carGrp.add(m);return m;
+  }
+
+  /* Body panels */
+  box(4.6,.52,2.0, bodyDark, 0,0,0);               // main sill
+  box(4.2,.14,1.96,bodyDark, 0,.33,0);              // upper sill
+  box(1.6,.22,1.96,bodyDark,-1.2,.44,0);            // hood
+  box(1.2,.16,1.96,bodyDark, 1.6,.37,0);            // trunk
+  box(1.9,.1, 1.76,bodyDark, .2,.98,0);             // roof panel
+  box(.09,.58,.12,bodyDark,-.88,.68, .88);          // A-pillar R
+  box(.09,.58,.12,bodyDark,-.88,.68,-.88);          // A-pillar L
+  box(.09,.56,.12,bodyDark,  .9,.68, .88);          // C-pillar R
+  box(.09,.56,.12,bodyDark,  .9,.68,-.88);          // C-pillar L
+  /* Windscreens */
+  box(.07,.52,1.72,glass,-.86,.72,0);
+  box(.07,.5, 1.64,glass, .92,.70,0);
+  /* Side windows */
+  box(1.62,.4,.05,glass,.08,.76, .89);
+  box(1.62,.4,.05,glass,.08,.76,-.89);
+  /* Bumpers */
+  box(.2,.34,1.96,chrome,-2.15,.02,0);
+  box(.2,.3, 1.96,chrome, 2.15,.02,0);
+  /* Grille */
+  box(.06,.2,1.24,darkRubber,-2.12,.06,0);
+  /* Headlights */
+  box(.07,.14,.42,headMat,-2.12,.17, .74);
+  box(.07,.14,.42,headMat,-2.12,.17,-.74);
+  /* Taillights */
+  box(.07,.16,.44,tailMat, 2.12,.13, .74);
+  box(.07,.16,.44,tailMat, 2.12,.13,-.74);
+  /* Side skirts */
+  box(3.5,.1,.07,chrome, 0,-.2, .99);
+  box(3.5,.1,.07,chrome, 0,-.2,-.99);
+  /* Door handles */
+  box(.22,.045,.045,chrome,-.3,.24,.97);box(.22,.045,.045,chrome,.5,.24,.97);
+  box(.22,.045,.045,chrome,-.3,.24,-.97);box(.22,.045,.045,chrome,.5,.24,-.97);
+  /* Exhaust pipes */
+  cyl(.065,.065,.16,10,chrome, 1.98,-.18, .46, 0,0,Math.PI/2);
+  cyl(.065,.065,.16,10,chrome, 1.98,-.18,-.46, 0,0,Math.PI/2);
+  /* Red trim stripe */
+  box(3.2,.06,.06,redTrim,0,.3,.9);box(3.2,.06,.06,redTrim,0,.3,-.9);
+  /* Hood scoop */
+  box(.5,.07,.4,bodyDark,-1.2,.57,0);
+  /* Wing mirrors */
+  box(.05,.1,.2,bodyDark,-.85,.54, 1.01);box(.05,.1,.2,bodyDark,-.85,.54,-1.01);
+
+  /* ── WHEELS ── */
+  function wheel(x,z){
+    const g=new THREE.Group();
+    const ty2=new THREE.Mesh(new THREE.TorusGeometry(.44,.19,20,48),rubber);ty2.rotation.y=Math.PI/2;g.add(ty2);
+    const disc=new THREE.Mesh(new THREE.CylinderGeometry(.34,.34,.06,36),rim);disc.rotation.z=Math.PI/2;g.add(disc);
+    for(let i=0;i<5;i++){
+      const a=(i/5)*Math.PI*2;
+      const sp=new THREE.Mesh(new THREE.BoxGeometry(.58,.058,.058),rim);
+      sp.rotation.x=a;sp.rotation.z=Math.PI/2;g.add(sp);
+      const bolt=new THREE.Mesh(new THREE.CylinderGeometry(.03,.03,.08,8),chrome);bolt.rotation.z=Math.PI/2;
+      bolt.position.set(0,Math.sin(a)*.2,Math.cos(a)*.2);g.add(bolt);
+    }
+    const cap=new THREE.Mesh(new THREE.CylinderGeometry(.08,.08,.08,16),redTrim);cap.rotation.z=Math.PI/2;g.add(cap);
+    /* Brake disc glow */
+    const brake=new THREE.Mesh(new THREE.CylinderGeometry(.28,.28,.04,32),new THREE.MeshStandardMaterial({color:0x333333,roughness:.6,metalness:.9}));brake.rotation.z=Math.PI/2;g.add(brake);
+    g.position.set(x,-.42,z);carGrp.add(g);return g;
+  }
+  const wheels=[wheel(-1.38,.98),wheel(-1.38,-.98),wheel(1.38,.98),wheel(1.38,-.98)];
+
+  /* ── DRAG ORBIT ── */
+  let drag=false,px=0,py=0,rotY=.4,rotX=.06,auto=true;
+  cv.addEventListener('mousedown',e=>{drag=true;auto=false;px=e.clientX;py=e.clientY;cv.style.cursor='grabbing';});
+  cv.addEventListener('touchstart',e=>{drag=true;auto=false;px=e.touches[0].clientX;py=e.touches[0].clientY;},{passive:true});
+  window.addEventListener('mouseup',()=>{drag=false;cv.style.cursor='grab';});
+  window.addEventListener('touchend',()=>{drag=false;});
+  window.addEventListener('mousemove',e=>{if(!drag)return;rotY+=(e.clientX-px)*.009;rotX+=(e.clientY-py)*.004;rotX=Math.max(-.25,Math.min(.4,rotX));px=e.clientX;py=e.clientY;});
+  window.addEventListener('touchmove',e=>{if(!drag)return;rotY+=(e.touches[0].clientX-px)*.009;rotX+=(e.touches[0].clientY-py)*.004;rotX=Math.max(-.25,Math.min(.4,rotX));px=e.touches[0].clientX;py=e.touches[0].clientY;},{passive:true});
+  /* Scroll zoom */
+  cv.addEventListener('wheel',e=>{cam.position.multiplyScalar(1+e.deltaY*.001);},{passive:true});
+
+  let frame=0;
+  (function loop(){
+    requestAnimationFrame(loop);frame++;
+    if(auto)rotY+=.003;
+    carGrp.rotation.y=rotY;carGrp.rotation.x=rotX;
+    /* Wheel spin */
+    if(auto)wheels.forEach(w=>{w.children[0].rotation.x+=.04;});
+    /* Pulsing red lights */
+    const pulse=4+Math.sin(frame*.05)*2;
+    rL1.intensity=rL2.intensity=pulse;rL3.intensity=3+Math.sin(frame*.05+1)*1.5;
+    underL.intensity=2.5+Math.sin(frame*.08)*1.2;
+    rnd.render(sc,cam);
+  })();
+
+  /* Resize */
+  window.addEventListener('resize',()=>{
+    const {w:nw,h:nh}=getSize();
+    cam.aspect=nw/nh;cam.updateProjectionMatrix();
+    rnd.setSize(nw,nh);cv.style.height=nh+'px';
+  });
+})();
+
+/* ══ CUSTOM CURSOR desktop ══ */
+(function(){
+  if(window.matchMedia('(pointer:coarse)').matches)return;
+  const c=document.getElementById('cur'),r=document.getElementById('rng');
+  if(!c||!r)return;
+  document.addEventListener('mousemove',e=>{c.style.left=e.clientX+'px';c.style.top=e.clientY+'px';r.style.left=e.clientX+'px';r.style.top=e.clientY+'px';});
+  document.querySelectorAll('a,button,.svc,.tc,.tt,.val,.step,.br-c,.st').forEach(el=>{
+    el.addEventListener('mouseenter',()=>{r.style.width='44px';r.style.height='44px';r.style.opacity='1';});
+    el.addEventListener('mouseleave',()=>{r.style.width='28px';r.style.height='28px';r.style.opacity='.65';});
+  });
+  document.body.style.cursor='none';
+})();
+
+/* ══ NAV SCROLL ══ */
+window.addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('up',scrollY>55),{passive:true});
+
+/* ══ ROUTING ══ */
+const PAGES=['home','services','tyres','about','contact'];
+let curPage='home';let obs=null;
+function go(pg,ctx){
+  if(!PAGES.includes(pg))pg='home';
+  document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));
+  const el=document.getElementById('page-'+pg);if(el)el.classList.add('on');
+  document.querySelectorAll('.nl a').forEach(a=>a.classList.remove('on'));
+  const lk=document.querySelector('.nl a[data-p="'+pg+'"]');if(lk)lk.classList.add('on');
+  window.scrollTo({top:0,behavior:'smooth'});
+  curPage=pg;
+  history.pushState({pg},'','#'+pg);
+  if(ctx==='tyres'){setTimeout(()=>{const s=document.getElementById('f-service');if(s)s.value='Tyres &amp; Fitting';},200);}
+  setTimeout(setupReveal,120);
+  return false;
+}
+window.addEventListener('popstate',e=>{const pg=e.state&&e.state.pg?e.state.pg:(location.hash.replace('#','')||'home');go(pg);});
+(function(){const h=location.hash.replace('#','');if(h&&PAGES.includes(h))go(h);else setupReveal();})();
+
+/* ══ MOBILE MENU ══ */
+function mob(){
+  const m=document.getElementById('mob-menu'),b=document.querySelector('.bg'),o=document.getElementById('mob-overlay');
+  if(m.classList.contains('open')){closeMob();}
+  else{m.classList.add('open');b.classList.add('x');o.classList.add('open');document.body.style.overflow='hidden';b.setAttribute('aria-expanded','true');}
+}
+function closeMob(){
+  const m=document.getElementById('mob-menu'),b=document.querySelector('.bg'),o=document.getElementById('mob-overlay');
+  m.classList.remove('open');b.classList.remove('x');o.classList.remove('open');document.body.style.overflow='';b.setAttribute('aria-expanded','false');
+}
+window.addEventListener('resize',()=>{if(innerWidth>960)closeMob();});
+
+/* ══ SCROLL REVEAL ══ */
+function setupReveal(){
+  if(obs){obs.disconnect();obs=null;}
+  const els=document.querySelectorAll('#page-'+curPage+' .rv:not(.vs)');
+  obs=new IntersectionObserver(en=>{en.forEach(e=>{if(e.isIntersecting)e.target.classList.add('vs');});},{threshold:.06});
+  els.forEach(e=>obs.observe(e));
+}
+
+/* ══ 2-STEP FORM ══ */
+function nextStep(){
+  const fn=document.getElementById('f-fname').value.trim();
+  const ph=document.getElementById('f-phone').value.trim();
+  const sv=document.getElementById('f-service').value;
+  if(!fn){alert('Please enter your first name.');document.getElementById('f-fname').focus();return;}
+  if(!ph){alert('Please enter your phone number.');document.getElementById('f-phone').focus();return;}
+  if(!sv){alert('Please select a service.');document.getElementById('f-service').focus();return;}
+  document.getElementById('fstep1').classList.remove('active');
+  document.getElementById('fstep2').classList.add('active');
+  document.getElementById('si1').classList.remove('active');document.getElementById('si1').classList.add('done');document.getElementById('si1').textContent='✓';
+  document.getElementById('si2').classList.remove('pending');document.getElementById('si2').classList.add('active');
+  document.getElementById('sil1').classList.add('done');
+  document.getElementById('step-lbl').textContent='Step 2 of 2 — Vehicle and Date';
+  document.querySelector('[role="progressbar"]').setAttribute('aria-valuenow','2');
+}
+function prevStep(){
+  document.getElementById('fstep2').classList.remove('active');document.getElementById('fstep1').classList.add('active');
+  document.getElementById('si1').classList.remove('done');document.getElementById('si1').classList.add('active');document.getElementById('si1').textContent='1';
+  document.getElementById('si2').classList.remove('active');document.getElementById('si2').classList.add('pending');
+  document.getElementById('sil1').classList.remove('done');
+  document.getElementById('step-lbl').textContent='Step 1 of 2 — Contact Details';
+  document.querySelector('[role="progressbar"]').setAttribute('aria-valuenow','1');
+}
+const SHEETS_URL='YOUR_GOOGLE_SCRIPT_URL';
+function submitForm(){
+  const btn=document.getElementById('f-btn'),status=document.getElementById('f-status');
+  const data={timestamp:new Date().toLocaleString('en-GB',{timeZone:'Europe/London'}),first_name:document.getElementById('f-fname').value.trim(),last_name:document.getElementById('f-lname').value.trim(),phone:document.getElementById('f-phone').value.trim(),email:document.getElementById('f-email').value.trim(),service:document.getElementById('f-service').value,vehicle:document.getElementById('f-make').value.trim(),preferred_date:document.getElementById('f-date').value,message:document.getElementById('f-msg').value.trim()};
+  btn.textContent='Sending...';btn.disabled=true;status.textContent='Please wait...';
+  if(SHEETS_URL==='YOUR_GOOGLE_SCRIPT_URL'){setTimeout(()=>{document.getElementById('bform').style.display='none';document.getElementById('fsuc').style.display='block';},700);return;}
+  fetch(SHEETS_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+    .then(()=>{document.getElementById('bform').style.display='none';document.getElementById('fsuc').style.display='block';})
+    .catch(()=>{btn.textContent='Send Booking Request';btn.disabled=false;status.textContent='Error. Please call us: +44 7349 820036';status.style.color='#e55';});
+}
+</script>
+</body>
+</html>
